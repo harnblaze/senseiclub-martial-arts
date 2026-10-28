@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Детские единоборства — карате, дзюдо, тхэквондо</title>
+<meta name="description" content="Секция единоборств для детей 4–14 лет: карате, дзюдо, тхэквондо. Бесплатное пробное занятие. Опытные тренеры, небольшие группы, аттестация на пояса.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2248%22 fill=%22%23ff5a36%22/><path d=%22M18 54h64M50 54L34 78M50 54l16 24%22 stroke=%22white%22 stroke-width=%228%22 fill=%22none%22 stroke-linecap=%22round%22/></svg>">
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo">
+      <span class="logo__icon"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="15"/><path d="M6 17h20M16 17l-5 7M16 17l5 7"/></svg></span>
+      <span class="logo__text">Sensei<span class="accent">Club</span></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#programs">Программы</a>
+      <a href="#benefits">Почему мы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#process">Как записаться</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="tel:+70000000000" class="header__phone">+7 (000) 000-00-00</a>
+      <a href="#lead-form" class="btn btn--pill btn--accent header__cta">
+        Пробное занятие <span class="btn__arrow">→</span>
+      </a>
+      <button class="burger" id="burger" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#programs">Программы</a>
+  <a href="#benefits">Почему мы</a>
+  <a href="#reviews">Отзывы</a>
+  <a href="#process">Как записаться</a>
+  <a href="#faq">Вопросы</a>
+  <a href="#lead-form" class="btn btn--pill btn--accent">Пробное занятие →</a>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__panel">
+      <div class="hero__content">
+        <p class="eyebrow"><span class="dot"></span> Набор в группы 4–14 лет открыт</p>
+        <h1 class="hero__title">
+          Растим чемпионов<br>
+          с <span class="accent">характером</span>
+        </h1>
+        <p class="hero__subtitle">
+          Карате, дзюдо и тхэквондо для детей. Дисциплина, уверенность в себе
+          и крепкое здоровье — под присмотром тренеров с опытом от 10&nbsp;лет.
+        </p>
+        <div class="hero__actions">
+          <a href="#lead-form" class="btn btn--pill btn--accent btn--lg">
+            Записать ребёнка бесплатно <span class="btn__arrow">→</span>
+          </a>
+          <a href="#programs" class="btn btn--ghost btn--lg">Смотреть программы</a>
+        </div>
+        <p class="hero__microcopy">Без обязательств · Ответим за 15 минут · Мест в группах ограничено</p>
+      </div>
+
+      <div class="hero__visual">
+        <img class="hero__photo"
+             src="images/hero-boy.jpg"
+             alt="Мальчик в кимоно в боевой стойке">
+
+        <div class="float-card float-card--top">
+          <span class="float-card__num"><span data-count="10">0</span><span class="accent">+</span></span>
+          <span class="float-card__label">лет опыта<br>у наших тренеров</span>
+        </div>
+
+        <div class="float-card float-card--bottom">
+          <div class="avatars">
+            <img src="images/avatar-1.jpg" alt="">
+            <img src="images/avatar-2.jpg" alt="">
+            <img src="images/avatar-3.jpg" alt="">
+          </div>
+          <span class="float-card__num"><span data-count="500">0</span><span class="accent">+</span></span>
+          <span class="float-card__label">учеников получили<br>первый пояс</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Карате</span><span>•</span><span>Дзюдо</span><span>•</span><span>Тхэквондо</span><span>•</span><span>Карате</span><span>•</span><span>Дзюдо</span><span>•</span><span>Тхэквондо</span><span>•</span><span>Карате</span><span>•</span><span>Дзюдо</span><span>•</span><span>Тхэквондо</span><span>•</span>
+        <span>Карате</span><span>•</span><span>Дзюдо</span><span>•</span><span>Тхэквондо</span><span>•</span><span>Карате</span><span>•</span><span>Дзюдо</span><span>•</span><span>Тхэквондо</span><span>•</span><span>Карате</span><span>•</span><span>Дзюдо</span><span>•</span><span>Тхэквондо</span><span>•</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAIN -->
+  <section class="section pain">
+    <div class="container">
+      <div class="section__head">
+        <p class="tag">Знакомая ситуация?</p>
+        <h2 class="section__title">Если хотя бы один пункт — про вашего ребёнка,<br class="hide-mobile"> нам есть что предложить</h2>
+      </div>
+
+      <div class="pain__grid">
+        <div class="pain__card">
+          <span class="pain__icon"><svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></span>
+          <p>Целыми днями сидит в телефоне и гаджетах</p>
+        </div>
+        <div class="pain__card">
+          <span class="pain__icon"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6z"/><path d="M9.5 12.5l1.8 1.8 3.2-3.6"/></svg></span>
+          <p>Не может постоять за себя во дворе или в школе</p>
+        </div>
+        <div class="pain__card">
+          <span class="pain__icon"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5.3L20 9"/><path d="M20 4v5h-5"/><path d="M20 12a8 8 0 0 1-14 5.3L4 15"/><path d="M4 20v-5h5"/></svg></span>
+          <p>Быстро теряет интерес к секциям и бросает их через пару месяцев</p>
+        </div>
+        <div class="pain__card">
+          <span class="pain__icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg></span>
+          <p>Вам важен не кружок «для галочки», а реальный результат</p>
+        </div>
+      </div>
+
+      <p class="pain__note">Единоборства решают все четыре проблемы одновременно — и вот как.</p>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="section benefits" id="benefits">
+    <div class="container">
+      <div class="section__head">
+        <p class="tag">Что получит ребёнок</p>
+        <h2 class="section__title">Не просто спорт —<br> инструмент для роста личности</h2>
+      </div>
+
+      <div class="benefits__grid">
+        <div class="benefit">
+          <span class="benefit__num">01</span>
+          <h3>Уверенность в себе</h3>
+          <p>Перестанет бояться конфликтов и почувствует себя увереннее среди сверстников.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit__num">02</span>
+          <h3>Дисциплина и концентрация</h3>
+          <p>Успеваемость в школе часто растёт вместе с самоконтролем на татами.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit__num">03</span>
+          <h3>Крепкое здоровье</h3>
+          <p>Осанка, координация, выносливость и иммунитет — без нудного ОФП.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit__num">04</span>
+          <h3>Навыки самообороны</h3>
+          <p>Базовая техника защиты без агрессии и лишнего риска.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit__num">05</span>
+          <h3>Уважение и командный дух</h3>
+          <p>Восточная этика учит уважать старших и поддерживать младших.</p>
+        </div>
+        <div class="benefit">
+          <span class="benefit__num">06</span>
+          <h3>Новые друзья</h3>
+          <p>Живой коллектив вместо одиночества за экраном.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="section programs" id="programs">
+    <div class="container">
+      <div class="section__head">
+        <p class="tag">Направления</p>
+        <h2 class="section__title">Выберите дисциплину — или доверьте выбор нам на бесплатной консультации</h2>
+      </div>
+
+      <div class="programs__grid">
+        <article class="program-card">
+          <div class="program-card__media">
+            <img src="images/program-karate.jpg" alt="Девочка с зелёным поясом в стойке карате" loading="lazy">
+            <span class="program-card__badge">4–14 лет</span>
+          </div>
+          <h3>Карате</h3>
+          <p>Скорость, точность ударов и железная самодисциплина. Идеально для тех, кто любит чёткие правила и быстрый прогресс по поясам.</p>
+          <a href="#lead-form" class="program-card__link">Записаться <span>→</span></a>
+        </article>
+
+        <article class="program-card program-card--accent">
+          <div class="program-card__media">
+            <img src="images/program-judo.jpg" alt="Мальчики отрабатывают захват в дзюдо" loading="lazy">
+            <span class="program-card__badge">4–14 лет</span>
+          </div>
+          <h3>Дзюдо</h3>
+          <p>Броски, борьба и олимпийский вид спорта с историей. Развивает силу, тактику и умение достойно проигрывать и побеждать.</p>
+          <a href="#lead-form" class="program-card__link">Записаться <span>→</span></a>
+        </article>
+
+        <article class="program-card">
+          <div class="program-card__media">
+            <img src="images/program-taekwondo.jpg" alt="Ученики тхэквондо отрабатывают удар ногой" loading="lazy">
+            <span class="program-card__badge">4–14 лет</span>
+          </div>
+          <h3>Тхэквондо</h3>
+          <p>Зрелищная работа ног, гибкость и взрывная реакция. Один из самых динамичных видов единоборств для активных детей.</p>
+          <a href="#lead-form" class="program-card__link">Записаться <span>→</span></a>
+        </article>
+      </div>
+
+      <div class="age-strip">
+        <div class="age-strip__item"><strong>4–6 лет</strong><span>Общая физподготовка и азы</span></div>
+        <div class="age-strip__item"><strong>7–10 лет</strong><span>Базовая техника и первые пояса</span></div>
+        <div class="age-strip__item"><strong>11–14 лет</strong><span>Углублённая техника и спарринги</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section why">
+    <div class="container why__inner">
+      <div class="why__media">
+        <div class="why__card why__card--main">
+          <img src="images/why-boy.jpg" alt="Мальчик в кимоно сосредоточен перед тренировкой" loading="lazy">
+          <p>Аттестация на пояса 2 раза в год по стандартам федерации</p>
+        </div>
+        <div class="why__card why__card--small">
+          <span class="float-card__num"><span data-count="12">0</span></span>
+          <span class="why__small-label">детей максимум в группе</span>
+        </div>
+      </div>
+
+      <div class="why__content">
+        <p class="tag">Почему выбирают нас</p>
+        <h2 class="section__title">Доверие строится на деталях</h2>
+        <ul class="why__list">
+          <li><span class="check">✓</span> Тренеры с квалификацией и опытом работы с детьми от 10 лет</li>
+          <li><span class="check">✓</span> Небольшие группы — до 12 человек, внимание каждому ребёнку</li>
+          <li><span class="check">✓</span> Аттестация на пояса 2 раза в год по стандартам федерации</li>
+          <li><span class="check">✓</span> Удобный зал с матами и раздевалками рядом с домом/метро</li>
+          <li><span class="check">✓</span> Первое занятие бесплатно, форма для пробного — напрокат</li>
+        </ul>
+        <a href="#lead-form" class="btn btn--pill btn--accent">Записаться на пробное <span class="btn__arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section__head">
+        <p class="tag">Отзывы родителей</p>
+        <h2 class="section__title">Что говорят родители наших учеников</h2>
+      </div>
+
+      <div class="reviews__grid">
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p>«Сын занимается карате уже полгода — исчезла сутулость, появилась уверенность. На тренировку бежит сам, будить не приходится».</p>
+          <div class="review-card__author">
+            <span class="review-card__avatar">А</span>
+            <div>
+              <strong>Анна</strong>
+              <span>мама Матвея, 9 лет</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p>«Дочь была очень стеснительной. После дзюдо начала записываться на конкурсы в школе. Тренер — просто находка».</p>
+          <div class="review-card__author">
+            <span class="review-card__avatar">О</span>
+            <div>
+              <strong>Ольга</strong>
+              <span>мама Софии, 7 лет</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p>«Ребёнок наконец расстался с планшетом добровольно. Тхэквондо стало любимой частью недели, ждёт занятия с нетерпением».</p>
+          <div class="review-card__author">
+            <span class="review-card__avatar">Д</span>
+            <div>
+              <strong>Дмитрий</strong>
+              <span>папа Артёма, 11 лет</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews__cta">
+        <a href="#lead-form" class="btn btn--pill btn--accent btn--lg">Хочу такой же результат <span class="btn__arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section process" id="process">
+    <div class="container">
+      <div class="section__head">
+        <p class="tag">Как проходит запись</p>
+        <h2 class="section__title">Попробовать — просто и без риска</h2>
+      </div>
+
+      <div class="process__grid">
+        <div class="process__step">
+          <span class="process__num">1</span>
+          <h3>Оставляете заявку</h3>
+          <p>На сайте или по телефону — займёт меньше минуты.</p>
+        </div>
+        <div class="process__step">
+          <span class="process__num">2</span>
+          <h3>Подбираем группу</h3>
+          <p>По возрасту ребёнка и удобному расписанию.</p>
+        </div>
+        <div class="process__step">
+          <span class="process__num">3</span>
+          <h3>Пробное занятие</h3>
+          <p>Ребёнок приходит бесплатно и знакомится с тренером.</p>
+        </div>
+        <div class="process__step">
+          <span class="process__num">4</span>
+          <h3>Решаете сами</h3>
+          <p>Видите результат и продолжаете — без давления и обязательств.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" id="faq">
+    <div class="container">
+      <div class="section__head">
+        <p class="tag">Вопросы и ответы</p>
+        <h2 class="section__title">Отвечаем на частые вопросы родителей</h2>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion__item is-open">
+          <button class="accordion__trigger">
+            Нужна ли физическая подготовка?
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p>Нет, принимаем детей с нуля — тренер адаптирует нагрузку под уровень каждого ребёнка.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__trigger">
+            Что нужно на первое занятие?
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p>Удобная спортивная форма и вода. Кимоно на пробное занятие выдаём бесплатно.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__trigger">
+            Сколько раз в неделю заниматься?
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p>Рекомендуем 2–3 занятия в неделю — оптимально для прогресса без переутомления.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__trigger">
+            Безопасно ли это для ребёнка?
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__panel">
+            <p>Да, все броски и удары отрабатываются на матах под контролем тренера с соблюдением техники безопасности.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA / FORM -->
+  <section class="section lead" id="lead-form">
+    <div class="container lead__inner">
+      <div class="lead__text">
+        <p class="tag tag--light">Первый шаг</p>
+        <h2 class="section__title section__title--light">Уверенность вашего ребёнка начинается сегодня</h2>
+        <p class="lead__subtitle">Бесплатное пробное занятие. Свободные места есть, но группы быстро заполняются.</p>
+
+        <ul class="lead__points">
+          <li>✓ Без оплаты и обязательств</li>
+          <li>✓ Форма выдаётся напрокат</li>
+          <li>✓ Перезвоним в течение 15 минут</li>
+        </ul>
+      </div>
+
+      <form class="lead__form" id="leadForm" novalidate>
+        <h3>Записаться на бесплатное занятие</h3>
+
+        <div class="field">
+          <label for="childName">Имя ребёнка</label>
+          <input type="text" id="childName" name="childName" placeholder="Например, Артём" required>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="childAge">Возраст</label>
+            <select id="childAge" name="childAge" required>
+              <option value="" disabled selected>Выберите</option>
+              <option>4–6 лет</option>
+              <option>7–10 лет</option>
+              <option>11–14 лет</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="program">Направление</label>
+            <select id="program" name="program">
+              <option value="">Помогите выбрать</option>
+              <option>Карате</option>
+              <option>Дзюдо</option>
+              <option>Тхэквондо</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="phone">Телефон родителя</label>
+          <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+        </div>
+
+        <label class="checkbox">
+          <input type="checkbox" required>
+          <span>Согласен(на) на обработку персональных данных</span>
+        </label>
+
+        <button type="submit" class="btn btn--pill btn--accent btn--block">
+          Записаться бесплатно <span class="btn__arrow">→</span>
+        </button>
+
+        <p class="form-success" id="formSuccess">Спасибо! Мы свяжемся с вами в течение 15 минут<br>Это демонстрационный сайт — заявка никуда не отправлена.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#top" class="logo logo--footer">
+      <span class="logo__icon"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="15"/><path d="M6 17h20M16 17l-5 7M16 17l5 7"/></svg></span>
+      <span class="logo__text">Sensei<span class="accent">Club</span></span>
+    </a>
+    <nav class="footer__nav">
+      <a href="#programs">Программы</a>
+      <a href="#benefits">Почему мы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <div class="footer__contacts">
+      <a href="tel:+70000000000">+7 (000) 000-00-00</a>
+      <span>г. Город, ул. Спортивная, 1</span>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© 2026 SenseiClub. Все права защищены.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
